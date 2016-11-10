@@ -7,7 +7,10 @@ import java.io.InputStreamReader;
 public class HelloWorldSample  {
 
 	public void HelloUser() throws IOException{
-		System.out.println("Enter username --> ");
+
+
+		System.out.println("Enter the username --> ***** ");
+
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String user = "";
 		user = br.readLine();
