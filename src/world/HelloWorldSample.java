@@ -10,6 +10,8 @@ public class HelloWorldSample  {
 
 
 		System.out.println("Enter the username --> ***** ");
+		
+		System.out.println("Another sysout..!!");
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String user = "";
